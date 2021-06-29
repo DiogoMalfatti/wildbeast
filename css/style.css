@@ -23,7 +23,6 @@ img {
   border-radius: 5px;
 }
 /* *** RESET ===== ===== ===== ===== */
-
 /* ==> LAYOUT GRID ===== ===== ===== ===== */
 .structure {
   display: grid;
@@ -34,7 +33,6 @@ img {
     'footer footer footer';
 }
 /* *** LAYOUT GRID ===== ===== ===== ===== */
-
 /* ==> HEADER ===== ===== ===== ===== */
 .header {
   grid-area: header;
@@ -67,7 +65,6 @@ img {
   background: rgba(0, 0, 0, 0.5);
 }
 /* *** HEADER ===== ===== ===== ===== */
-
 /* ==> SIDENAV ===== ===== ===== ===== */
 .sidenav {
   grid-area: sidenav;
@@ -89,9 +86,8 @@ img {
   background: #b07dfb;
 }
 /* *** SIDENAV ===== ===== ===== ===== */
-
-/* ==> MAIN ===== ===== ===== ===== */
-/* ==> MAIN LAYOUT GRID ===== ===== ===== ===== */
+/* ==> CONTENT ===== ===== ===== ===== */
+/* ==> CONTENT LAYOUT GRID ===== ===== ===== ===== */
 .content {
   grid-area: content;
   max-width: 56.25rem;
@@ -111,8 +107,7 @@ img {
 .image2 {
   align-self: end;
 }
-/* *** MAIN LAYOUT GRID ===== ===== ===== ===== */
-/* ==> MAIN STYLES ===== ===== ===== ===== */
+/* *** CONTENT LAYOUT GRID ===== ===== ===== ===== */
 .title {
   color: #b07dfb;
 }
@@ -196,9 +191,7 @@ p {
 .atributes li + li {
   border-top: 2px solid #b07dfb;
 }
-/* *** MAIN STYLES ===== ===== ===== ===== */
-/* *** MAIN ===== ===== ===== ===== */
-
+/* *** CONTENT ===== ===== ===== ===== */
 /* ==> ADVERT ===== ===== ===== ===== */
 .advert {
   grid-area: advert;
@@ -210,7 +203,6 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 /* *** ADVERT ===== ===== ===== ===== */
-
 /* ==> FOOTER ===== ===== ===== ===== */
 .footer {
   grid-area: footer;
@@ -222,10 +214,9 @@ p {
   padding: 1.875rem;
 }
 /* *** FOOTER ===== ===== ===== ===== */
-
 /* ==> RESPONSIVE 1200px ===== ===== ===== ===== */
-/* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 @media (max-width: 1200px) {
+  /* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
   .structure {
     grid-template-columns: minmax(160px, 1fr) 3fr 300px;
     grid-template-areas:
@@ -234,37 +225,12 @@ p {
       'sidenav advert advert'
       'footer footer footer';
   }
+  /* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 }
-/* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
-/* *** RESPONSIVE HEADER ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE SIDENAV ===== ===== ===== ===== */
-/* *** RESPONSIVE SIDENAV ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE MAIN ===== ===== ===== ===== */
-/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE ADVERT ===== ===== ===== ===== */
-/* *** RESPONSIVE ADVERT ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE FOOTER ===== ===== ===== ===== */
-/* *** RESPONSIVE FOOTER ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE ===== ===== ===== ===== */
-/* ==> RESPONSIVE ===== ===== ===== ===== */
-
-/* *** RESPONSIVE ===== ===== ===== ===== */
-
+/* *** RESPONSIVE 1200px ===== ===== ===== ===== */
 /* ==> RESPONSIVE 760px ===== ===== ===== ===== */
-/* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 @media (max-width: 760px) {
+  /* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
   .structure {
     grid-template-columns: 100%;
     grid-template-areas:
@@ -274,6 +240,7 @@ p {
       'advert'
       'footer';
   }
+  /* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
   /* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
   .header {
     grid-template-columns: auto;
@@ -323,24 +290,9 @@ p {
   }
   /* *** RESPONSIVE SIDENAV ===== ===== ===== ===== */
 }
-/* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE ADVERT ===== ===== ===== ===== */
-/* *** RESPONSIVE ADVERT ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE FOOTER ===== ===== ===== ===== */
-/* *** RESPONSIVE FOOTER ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE ===== ===== ===== ===== */
-/* ==> RESPONSIVE ===== ===== ===== ===== */
-
-/* *** RESPONSIVE ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE 760px ===== ===== ===== ===== */
-/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+/* *** RESPONSIVE 760px ===== ===== ===== ===== */
+/* ==> RESPONSIVE 600px ===== ===== ===== ===== */
+/* ==> RESPONSIVE CONTENT LAYOUT GRID ===== ===== ===== ===== */
 @media (max-width: 600px) {
   .content {
     grid-template-columns: auto;
@@ -349,5 +301,5 @@ p {
     width: 100%;
   }
 }
-/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
-/* *** RESPONSIVE ===== ===== ===== ===== */
+/* *** RESPONSIVE CONTENT LAYOUT GRID ===== ===== ===== ===== */
+/* *** RESPONSIVE 600px ===== ===== ===== ===== */
