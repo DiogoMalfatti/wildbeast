@@ -18,7 +18,9 @@ a {
   text-decoration: none;
 }
 img {
+  display: block;
   max-width: 100%;
+  border-radius: 5px;
 }
 /* *** RESET ===== ===== ===== ===== */
 
@@ -33,12 +35,6 @@ img {
 }
 .content {
   grid-area: content;
-}
-.advert {
-  grid-area: advert;
-}
-.footer {
-  grid-area: footer;
 }
 /* *** LAYOUT GRID ===== ===== ===== ===== */
 
@@ -101,7 +97,24 @@ img {
 /* *** MAIN ===== ===== ===== ===== */
 
 /* ==> ADVERT ===== ===== ===== ===== */
+.advert {
+  grid-area: advert;
+  background: #fafbfc;
+  display: grid;
+  align-content: start;
+  padding: 1.875rem;
+  gap: 1.875rem;
+}
 /* *** ADVERT ===== ===== ===== ===== */
 
 /* ==> FOOTER ===== ===== ===== ===== */
+.footer {
+  grid-area: footer;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding: 1.875rem;
+}
 /* *** FOOTER ===== ===== ===== ===== */
