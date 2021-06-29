@@ -31,9 +31,6 @@ img {
     'sidenav content advert'
     'footer footer footer';
 }
-.sidenav {
-  grid-area: sidenav;
-}
 .content {
   grid-area: content;
 }
@@ -68,7 +65,7 @@ img {
   display: block;
   padding: 0.625rem;
   color: #fff;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   background: rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   transition: 0.1s;
@@ -79,7 +76,25 @@ img {
 /* *** HEADER ===== ===== ===== ===== */
 
 /* ==> SIDENAV ===== ===== ===== ===== */
-
+.sidenav {
+  grid-area: sidenav;
+  background: #fafbfc;
+  padding: 1.875rem;
+}
+.sidenav li a {
+  display: block;
+  min-width: 3.75rem;
+  max-width: 6.25rem;
+  margin: 0 auto 1.875rem auto;
+  background: #fff;
+  padding: 1.25rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0 rgba(44, 44, 44, 0.15);
+  transition: 0.1s ease-out;
+}
+.sidenav li a:hover {
+  background: #b07dfb;
+}
 /* *** SIDENAV ===== ===== ===== ===== */
 
 /* ==> MAIN ===== ===== ===== ===== */
