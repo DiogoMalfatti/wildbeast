@@ -94,7 +94,7 @@ img {
 /* ==> MAIN LAYOUT GRID ===== ===== ===== ===== */
 .content {
   grid-area: content;
-  max-width: 900px;
+  max-width: 56.25rem;
   margin: 0 auto;
   padding: 1.875rem;
   display: grid;
@@ -164,6 +164,37 @@ p {
   padding: 0.3125rem 0;
   position: relative;
   top: 2px;
+}
+.contrast {
+  font-size: 0.875rem;
+  color: #b07dfb;
+  max-width: 16rem;
+}
+.cite,
+.atributes {
+  align-self: start;
+  padding: 1.875rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+}
+.cite p {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align: center;
+  padding: 1.875rem;
+  color: #fff;
+  max-width: 31.25rem;
+  margin: 0 auto;
+}
+.atributes li {
+  color: #fff;
+  font-family: Courier, monospace;
+  font-size: 1.125rem;
+  padding: 0.9375rem;
+}
+.atributes li + li {
+  border-top: 2px solid #b07dfb;
 }
 /* *** MAIN STYLES ===== ===== ===== ===== */
 /* *** MAIN ===== ===== ===== ===== */
