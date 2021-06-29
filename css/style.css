@@ -45,7 +45,7 @@ img {
   align-items: center;
 }
 .logo {
-  max-width: 12.5rem;
+  max-width: 200px;
 }
 .header nav ul {
   display: flex;
@@ -273,11 +273,22 @@ p {
       'advert'
       'footer';
   }
+  /* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
+  .header {
+    grid-template-columns: auto;
+  }
+  .logo {
+    margin-bottom: 1.25rem;
+  }
+  .header nav a {
+    font-size: 1rem;
+  }
+  .header li + li {
+    margin-left: 0.625rem;
+  }
+  /* *** RESPONSIVE HEADER ===== ===== ===== ===== */
 }
 /* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
-
-/* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
-/* *** RESPONSIVE HEADER ===== ===== ===== ===== */
 
 /* ==> RESPONSIVE SIDENAV ===== ===== ===== ===== */
 /* *** RESPONSIVE SIDENAV ===== ===== ===== ===== */
