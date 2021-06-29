@@ -33,9 +33,6 @@ img {
     'sidenav content advert'
     'footer footer footer';
 }
-.content {
-  grid-area: content;
-}
 /* *** LAYOUT GRID ===== ===== ===== ===== */
 
 /* ==> HEADER ===== ===== ===== ===== */
@@ -94,6 +91,22 @@ img {
 /* *** SIDENAV ===== ===== ===== ===== */
 
 /* ==> MAIN ===== ===== ===== ===== */
+.content {
+  grid-area: content;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1.875rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.875rem;
+}
+.col-wide {
+  grid-column: 1 / -1;
+}
+.image1 {
+  grid-row: span 2;
+  align-self: end;
+}
 /* *** MAIN ===== ===== ===== ===== */
 
 /* ==> ADVERT ===== ===== ===== ===== */
