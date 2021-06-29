@@ -221,3 +221,82 @@ p {
   padding: 1.875rem;
 }
 /* *** FOOTER ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE  1200px ===== ===== ===== ===== */
+/* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
+@media (max-width: 1200px) {
+  .structure {
+    grid-template-columns: minmax(160px, 1fr) 3fr 300px;
+    grid-template-areas:
+      'header header header'
+      'sidenav content content'
+      'sidenav advert advert'
+      'footer footer footer';
+  }
+}
+/* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
+/* *** RESPONSIVE HEADER ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE SIDENAV ===== ===== ===== ===== */
+/* *** RESPONSIVE SIDENAV ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE MAIN ===== ===== ===== ===== */
+/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE ADVERT ===== ===== ===== ===== */
+/* *** RESPONSIVE ADVERT ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE FOOTER ===== ===== ===== ===== */
+/* *** RESPONSIVE FOOTER ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE ===== ===== ===== ===== */
+/* ==> RESPONSIVE ===== ===== ===== ===== */
+
+/* *** RESPONSIVE ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE  760px ===== ===== ===== ===== */
+/* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
+@media (max-width: 760px) {
+  .structure {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'header'
+      'sidenav'
+      'content'
+      'advert'
+      'footer';
+  }
+}
+/* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE HEADER ===== ===== ===== ===== */
+/* *** RESPONSIVE HEADER ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE SIDENAV ===== ===== ===== ===== */
+/* *** RESPONSIVE SIDENAV ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE MAIN ===== ===== ===== ===== */
+/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
+/* *** RESPONSIVE MAIN ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE ADVERT ===== ===== ===== ===== */
+/* *** RESPONSIVE ADVERT ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE FOOTER ===== ===== ===== ===== */
+/* *** RESPONSIVE FOOTER ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE ===== ===== ===== ===== */
+/* ==> RESPONSIVE ===== ===== ===== ===== */
+
+/* *** RESPONSIVE ===== ===== ===== ===== */
