@@ -207,6 +207,7 @@ p {
   align-content: start;
   padding: 1.875rem;
   gap: 1.875rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 /* *** ADVERT ===== ===== ===== ===== */
 
@@ -222,7 +223,7 @@ p {
 }
 /* *** FOOTER ===== ===== ===== ===== */
 
-/* ==> RESPONSIVE  1200px ===== ===== ===== ===== */
+/* ==> RESPONSIVE 1200px ===== ===== ===== ===== */
 /* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 @media (max-width: 1200px) {
   .structure {
@@ -261,7 +262,7 @@ p {
 
 /* *** RESPONSIVE ===== ===== ===== ===== */
 
-/* ==> RESPONSIVE  760px ===== ===== ===== ===== */
+/* ==> RESPONSIVE 760px ===== ===== ===== ===== */
 /* ==> RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 @media (max-width: 760px) {
   .structure {
@@ -324,13 +325,8 @@ p {
 }
 /* *** RESPONSIVE LAYOUT GRID ===== ===== ===== ===== */
 
-/* ==> RESPONSIVE MAIN ===== ===== ===== ===== */
-/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
-
 /* ==> RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
 /* *** RESPONSIVE MAIN STYLES ===== ===== ===== ===== */
-/* *** RESPONSIVE MAIN ===== ===== ===== ===== */
 
 /* ==> RESPONSIVE ADVERT ===== ===== ===== ===== */
 /* *** RESPONSIVE ADVERT ===== ===== ===== ===== */
@@ -341,4 +337,17 @@ p {
 /* ==> RESPONSIVE ===== ===== ===== ===== */
 /* ==> RESPONSIVE ===== ===== ===== ===== */
 
+/* *** RESPONSIVE ===== ===== ===== ===== */
+
+/* ==> RESPONSIVE 760px ===== ===== ===== ===== */
+/* ==> RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
+@media (max-width: 600px) {
+  .content {
+    grid-template-columns: auto;
+  }
+  .content img {
+    width: 100%;
+  }
+}
+/* *** RESPONSIVE MAIN LAYOUT GRID ===== ===== ===== ===== */
 /* *** RESPONSIVE ===== ===== ===== ===== */
